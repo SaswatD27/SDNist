@@ -104,7 +104,7 @@ def save_grid_plots(title: str, grid_data, grid_labels, output_directory: Path) 
                 text = ax.text(j, i, gl[i, j],
                                ha="center", va="center", color="k", fontsize=7)
 
-    ax.set_title(title, fontsize=12)
+    #ax.set_title(title, fontsize=12)
     plt.xticks(fontsize=10)
     plt.yticks(fontsize=10)
     plt.axis('off')
